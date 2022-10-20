@@ -1,159 +1,168 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Cheyenne Hohman</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="style.css" />
-		<script src="https://kit.fontawesome.com/18a9621562.js" crossorigin="anonymous"></script>
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cheyenne Hohman">
+    <meta name="author" content="Cheyenne Hohman">
+    <!-- Link to FontAwesome -->
+    <script src="https://kit.fontawesome.com/18a9621562.js" crossorigin="anonymous"></script>
+    <!-- Link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Cheyenne Hohman</title>
+</head>
+<body>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Let's make something cool.</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+    <!-- Header (a semantic container)-->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><n id="highlight">CH</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li id="current">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#features">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume & Socials</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="#">Home</a></li>
-								<li><a href="#features">My Work</a></li>
-								<li><a href="#footer">Resume & Socials</a></li>
+    <!-- Showcase -->
+    <section id="showcase">
+        <div class="container">
+            <h1>Let's Make Something Cool!</h1>
+            <p>Cheyenne Hohman is a patient, skilled and creative web developer from Lexington, Kentucky. Currently enrolled in the Commonwealth Coders training program, she's learning how to use the following tools and libraries:</p>
+        </div>
+    </section>
 
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+<!-- Boxes -->
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <!-- Fontawesome Icons -->
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-square-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-bootstrap"></i>
+                <h3>Bootstrap</h3>
+            </div>
+        </div>
+    </section>
 
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<header>
-							<div class="inner">
-								<h2>Cheyenne Hohman</h2>
-								<p>Web Developer</p>
-							</div>
-						</header>
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <article class="main-col">
+                <h1 class="page-title">About Me</h1>
+                <p> A brief history
+                </p>
+                <p class="light">My experience with building websites dates back to the 1990s, using GeoCities pages and hard-coding HTML tables into oblivion to awkwardly display information. I sometimes miss the nostalgic, low-functionality, high-personality vibe of Ye Olde Interweb, but I'm glad to say I've learned a lot since then, and the tools available to build things online have vastly improved!
+                </p>
+            </article>
+        </div>
+    </section>
 
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
+<section id="examples">
+    <h3 class="major">Examples of My Work</h3>
+        <p>Dynamic and with a sense of humor, my work is often light-hearted, educational and ideally fun. I try to keep my work accessible using best UI/UX practices & ADA accessibility standards.</p>
+</section>
 
-								<!-- ABOUT ME -->
-									<h3 class="major">About Me</h3>
-									<p>Cheyenne is a skilled and patient web developer, researcher, site builder, and idea person.</p>
+<section id="features">
+    <!-- Photo Site -->
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="images/photosite.png" class="card-img-top" alt="Screenshot of a photography website, with tiled images">
+        <div class="card-body">
+          <h5 class="card-title">Photo Site</h5>
+          <p class="card-text">A simple gallery of black & white photographs of landscapes, made with HTML5 and CSS.</p>
+          <a href="https://cheyennehohman.github.io/PhotoSite/" class="btn btn-dark">Demo</a>
+          <a href="https://github.com/CheyenneHohman/PhotoSite" class="btn btn-dark">Git Repo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Bat Game -->
+    <div class="col">
+      <div class="card">
+        <img src="images/batty.jpg" class="card-img-top" alt="A photo of a bat hanging upside down with its tongue out">
+        <div class="card-body">
+          <h5 class="card-title">Totally Batty Text Adventure</h5>
+          <p class="card-text">Test your bat knowledge with this simple text adventure game built in JavaScript.</p>
+          <a href="https://cheyennehohman.github.io/TextAdventureGame/" class="btn btn-dark">Demo</a>
+          <a href="https://github.com/CheyenneHohman/TextAdventureGame" class="btn btn-dark">Git Repo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Le Pain -->
+    <div class="col">
+      <div class="card">
+        <img src="images/lepain.png" class="card-img-top" alt="A screenshot from a website selling bread">
+        <div class="card-body">
+          <h5 class="card-title">Le Pain Bread Co.</h5>
+          <p class="card-text">A showcase-style page with information about different varieties of bread. (Note: the website, not the product, is gluten-free). Made using Bootstrap.</p>
+          <a href="https://cheyennehohman.github.io/LePainProject/" class="btn btn-dark">Demo</a>
+          <a href="https://github.com/CheyenneHohman/LePainProject" class="btn btn-dark">Git Repo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Vid Background -->
+    <div class="col">
+      <div class="card">
+        <img src="images/videobg.png" class="card-img-top" alt="Video background page, live loop of HTML coding">
+        <div class="card-body">
+          <h5 class="card-title">Video Background Page</h5>
+          <p class="card-text">A landing page with a looping video to add a dynamic background and engaging visual element. Made with HTML5 and CSS.</p>
+          <a href="https://cheyennehohman.github.io/VideoBackgroundSite/" class="btn btn-dark">Demo</a>
+          <a href="https://github.com/CheyenneHohman/VideoBackgroundSite" class="btn btn-dark">Git Repo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-									<p>Cheyenne is a Lexington, Kentucky-based creative professional.</p>
+  <!-- RESUME & SOCIALS -->
+<section id="resume"></section>
+        <h2 class="major">Resume & Online Presence</h2>
+        <p>Want to know the finer details of my employment history? Peek at my resume, or scroll down for links to socials.</p>
+        <ul class="contact">
+<!-- TODO add resume link -->
+            <a href="#"><i class="fa-solid fa-file"></i></a><br>
+            <a href="mailto:contact@cheyennehohman.com?subject=Mail from Portfolio Site"><i class="icon fa-solid fa-envelope"></a></i><br>
+            <a href="http://www.twitter.com/cheyennehohman" target="_blank"><i class="icon brands fa-twitter"></i></a><br>
+            <a href="http://linkedin.com/in/cheyennehohman/" target="_blank"><i class="icon brands fa-linkedin"></i></a><br>
+            <a href="https://github.com/CheyenneHohman" target="_blank"><i class="icon brands fa-github"></i></a><br>
+        </ul>
+</section>
 
-									<!-- SKILL SET: insert list of icons/languages I'm able to work with -->
+    <footer>
+        <p>Cheyenne Hohman &copy; 2022.</p>
+    </footer>
 
-									<section class="skillset">
-										<section id="boxes">
-											<div class="container">
-												<div class="box">
-													<!-- Fontawesome Icon -->
-													<i class="fa-brands fa-html5"></i>
-													<h3>HTML5</h3>
-												</div>
-												<div class="box">
-													<i class="fa-brands fa-css3-alt"></i>
-													<h3>CSS 3</h3>
-												</div>
-												<div class="box">
-													<i class="fa-brands fa-square-js"></i>
-													<h3>JavaScript</h3>
-												</div>
-											</div>
-										</section>
-										
 
-									</section>
-
-									<!-- MY WORK -->
-									<h3 class="major" id="features">Examples of My Work</h3>
-									<p>Dynamic and with a sense of humor, my work is often light-hearted, educational and ideally fun. I try to keep my work accessible using best UI/UX practices & ADA accessibility standards.</p>
-
-									<section class="features">
-										<!-- PHOTO SITE -->
-										<article>
-											<a href="#" class="image"><img src="images/photosite.png" alt="" /></a>
-											<h3 class="major">Photo Gallery Site</h3>
-											<p>A simple gallery of found black & white photos made with HTML5 and CSS.</p>
-											<a href="https://cheyennehohman.github.io/PhotoSite/" class="special">Demo</a>
-											<a href="https://github.com/CheyenneHohman/PhotoSite" class="special">Git Repo</a>
-										</article>
-										<!-- BAT GAME -->
-										<article>
-											<a href="#" class="image"><img src="images/batty.jpg" alt="" /></a>
-											<h3 class="major">Totally Batty Text Adventure</h3>
-											<p>How much do you know about the little brown bat? Find out through this simple text adventure game.</p>
-											<a href="https://cheyennehohman.github.io/TextAdventureGame/" class="special">Demo</a>
-											<a href="https://github.com/CheyenneHohman/TextAdventureGame" class="special">Git Repo</a>
-										</article>
-										<!-- LE PAIN -->
-										<article>
-											<a href="#" class="image"><img src="images/lepain.png" alt="" /></a>
-											<h3 class="major">Le Pain Bread Co</h3>
-											<p>A showcase-style page with information about different varieties of bread. (Note: the website, not the product, is gluten-free)</p>
-											<a href="https://cheyennehohman.github.io/LePainProject/" class="special">Demo</a>
-											<a href="https://github.com/CheyenneHohman/LePainProject" class="special">Git Repo</a>
-										</article>
-										<!-- VIDEO BACKGROUND PAGE -->
-										<article>
-											<a href="#" class="image"><img src="images/videobg.png" alt="" /></a>
-											<h3 class="major">Video Background Page</h3>
-											<p>A landing page with a looping video to add a dynamic background and engaging visual element.</p>
-											<a href="https://cheyennehohman.github.io/VideoBackgroundSite/" class="special">Demo</a>
-											<a href="https://github.com/CheyenneHohman/VideoBackgroundSite" class="special">Git Repo</a>
-										</article>
-									</section>
-
-								</div>
-							</div>
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Resume & Online Presence</h2>
-							<p>Want to know the finer details of my employment history? Peek at my resume, or scroll down for links to socials.</p>
-							<ul class="contact">
-	<!-- TODO add resume link -->
-								<a href="#"><i class="fa-solid fa-file"></i></a><br>
-								<a href="mailto:contact@cheyennehohman.com?subject=Mail from Portfolio Site"><i class="icon fa-solid fa-envelope"></a></i><br>
-								<a href="http://www.twitter.com/cheyennehohman" target="_blank"><i class="icon brands fa-twitter"></i></a><br>
-								<a href="http://linkedin.com/in/cheyennehohman/" target="_blank"><i class="icon brands fa-linkedin"></i></a><br>
-								<a href="https://github.com/CheyenneHohman" target="_blank"><i class="icon brands fa-github"></i></a><br>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Bootstrap JS library -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
 </html>
